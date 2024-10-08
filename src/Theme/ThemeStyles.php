@@ -12,8 +12,8 @@ readonly class ThemeStyles
 
     public function __construct(ParsedTheme $theme)
     {
-        $this->backgroundColor = $theme->colors['editor.background'];
-        $this->foregroundColor = $theme->colors['editor.foreground'];
+        $this->backgroundColor = $theme->colors['editor.background'] ?? '';
+        $this->foregroundColor = $theme->colors['editor.foreground'] ?? '';
 
         /** @var array<string, array> */
         $tokenColors = [];
