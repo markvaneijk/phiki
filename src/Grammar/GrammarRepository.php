@@ -18,6 +18,7 @@ class GrammarRepository implements GrammarRepositoryInterface
         'js' => 'javascript',
         'yml' => 'yaml',
         'golang' => 'go',
+        'txt' => 'shellscript',
         'text' => 'shellscript',
         'plaintext' => 'shellscript',
         'md' => 'markdown',
